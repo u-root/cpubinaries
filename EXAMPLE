@@ -1,0 +1,4 @@
+# depending on how you mounted the USB stick, you may need to run this file with sudo.
+# consider  copying /mnt/cpu_rsa to ~/.ssh
+# and cpu to ~/bin
+./cpu -key ./cpu_rsa localhost
