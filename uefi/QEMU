@@ -7,6 +7,7 @@ sudo /usr/bin/qemu-system-x86_64 \
 	-cpu  max \
      -m 1024m \
      -machine q35  \
+     -machine accel=kvm \
      -object rng-random,filename=/dev/urandom,id=rng0 \
      -device virtio-rng-pci,rng=rng0 \
      -device e1000,netdev=n1 \
