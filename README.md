@@ -26,3 +26,8 @@ make fetch
 make cpukernel
 
 will rebuild the kernel.
+
+## UEFI version
+
+For a UEFI based system, see [uefi/README.md](uefi/README.md). It can be used
+on real hardware as well.
