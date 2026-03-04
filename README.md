@@ -3,7 +3,7 @@ This is a set of cpubinaries so you can learn how to use it.
 
 We include:
 
-a kernel (cpukernel) with a built-in initramfs comtaining cpud, as well as a public
+a kernel (cpukernel) with a built-in initramfs containing `cpud`, as well as a public
 key. Also included, should you want to build your own, is the config file (cpu.config).
 
 a binary client program, cpu, as well as the private key to use. You can place this
@@ -21,9 +21,12 @@ Be careful how you use the keys; they're public. You should really only use them
 of the demo.
 
 The cpukernel was built using the github.com:linuxboot/mainboards repo. If you clone this repo,
+
+```
 cd mainboards/intel/generic
 make fetch
 make cpukernel
+```
 
 will rebuild the kernel.
 
